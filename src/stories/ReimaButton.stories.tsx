@@ -1,8 +1,9 @@
-import { ReimaButton } from '@/components/reima/ReimaButton';
+import { ReimaButton } from '@/components/reima/ReimaButton.styled';
 
-export default {
+const ReimaButtonStory = {
   title: 'ReimaButton',
   component: ReimaButton,
 };
+export default ReimaButtonStory;
 
 export const Primary = () => <ReimaButton>ReimaButton</ReimaButton>;

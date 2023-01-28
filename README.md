@@ -10,9 +10,11 @@
 
 ```json
 "editor.tabSize": 2,
+  // Will run lint --fix whenever we hit CTRL + S
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
   },
-"eslint.validate": ["typescript"]
+"eslint.validate": ["typescript"], // Enable ESLint TypeScript checking
+"typescript.validate.enable": false, // Disable VsCode TS checking, because we have ESLint for that
 ```
 6. Run project: `yarn dev`
